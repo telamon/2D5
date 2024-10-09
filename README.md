@@ -25,7 +25,7 @@ The GeometryNode is intended to be applied on a quad, the method itself is quite
 
 ![battle_showcase](demo/battle.gif)
 
-_(rigged &amp; animated mesh as a ready to use `.glb` -asset)_
+_(rigged &amp; animated mesh as a portable `.glb`)_
 
 ## Godot 2D5 Fragment Shader
 
@@ -63,7 +63,7 @@ through the surface while sampling the depth-map.
 There are many ways to generate depth maps from images.
 If you already have diffusion set up then try something like [ComfyUi-GeoWizard](https://github.com/kijai/ComfyUI-Geowizard)  
 
-And please help yourself to the pre-generated content in [examples/](./examples) folder.  
+Help yourself to the pre-generated depths in [examples/](./examples) folder.  
 They were generated using patched [geowizard/run_infer_v2.py](https://github.com/fuxiao0719/GeoWizard/blob/main/geowizard/run_infer_v2.py):
 ```  
 python run_infer_v2.py --input_dir demo/ --output_dir examples/ --denoise_steps 12 --ensemble_size 3 --processing_res 1024
